@@ -20,7 +20,6 @@ public class AdminService {
 
         professorRepository.save(prof);
 
-
     }
 
 }
