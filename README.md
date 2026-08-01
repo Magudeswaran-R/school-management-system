@@ -14,8 +14,5 @@ The project is a set of spring boot based REST APIs that can be used to manage a
 
 ## TO-DO later
 Set up AUD for User Tokens --- later
-Configure Keycloak in Springboot
-Setup Role based Authorization
-Test the Authentication/Authorization
 
 

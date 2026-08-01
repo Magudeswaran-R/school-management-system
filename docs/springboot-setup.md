@@ -1,5 +1,5 @@
-## Springboot side setup for the application
-- Create a simple Springboot app from the springboot initializer
+## SpringBoot side setup for the application
+- Create a simple SpringBoot app from the springBoot initializer
 
 ## Auth configuration
 - Refer the Keycloak setup page for setting up key-cloak side configs
