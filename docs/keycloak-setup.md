@@ -32,3 +32,10 @@ kc.bat start-dev
 - Register school-management app as a client so that all the users created can get a token for this client.
   Also,each NPTA is registered as a client and the responsibility to check if the token is issued for school-management is handled by spring security config of the app by verifying the AUD.
   Else any token issued for any client within 'keycloak realm/Microsoft AD tenant' will get accepted.
+- Some OAuth 2.0 Terminologies
+    - Resource Server: Is the data owner which is the Spring Boot app in this case.
+    - Client: Client for Keycloak. The SpringBoot app is also a client here. Any Other app like another backend/front end app are also clients.
+    - Auth Server: Keycloak
+    - Resource Owner: ADMIN role for admin apis and so on
+    - Here the Frontend app or another backend app access the resources on behalf of ADMIN by getting a JWT token
+- We can use Direct Access Grant for Human users, Authorization code flow if there is an UI or client creds flow for backend to backend
