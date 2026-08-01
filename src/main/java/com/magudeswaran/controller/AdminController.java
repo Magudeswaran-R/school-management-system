@@ -1,6 +1,5 @@
 package com.magudeswaran.controller;
 
-import com.magudeswaran.dto.ProfessorDTO;
 import com.magudeswaran.service.AdminService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
@@ -15,11 +14,6 @@ public class AdminController {
     @GetMapping("/ping")
     public String healthTest(){
         return "Ping Successful.....";
-    }
-
-    @PutMapping("/professor")
-    public void addProfessor(@RequestBody ProfessorDTO professorDto){
-        adminService.addProfessor(professorDto);
     }
 
 }
