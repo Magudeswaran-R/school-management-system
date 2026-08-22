@@ -11,6 +11,11 @@ The project is a set of spring boot based REST APIs that can be used to manage a
 
 
 # Steps to setup the application in Windows Machine
+- Open windows services as admin and start MySQL service
+- Go into the Keycloak install folder and start keycloak using "kc.bat start-dev"
+
+# Admin Module
+- Admin can add Principal, Teacher, Students
 
 ## TO-DO later
 Set up AUD for User Tokens --- later
